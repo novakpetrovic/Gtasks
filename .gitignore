@@ -1,4 +1,4 @@
+expl
+credentials
+__pycache__
 *.pyc
-credentials.json
-dist
-gtasks.egg-info
