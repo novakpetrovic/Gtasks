@@ -1,8 +1,7 @@
 from gtasks import Gtasks
 
 gt = Gtasks(credentials_location='credentials/credentials.json')
-daily_tasks_file = open('E:\\dev\\0\\Dropbox\\Dropbox\\today.pm.txt',
-                           'r')
+daily_tasks_file = open('E:\\dev\\0\\Dropbox\\Dropbox\\today.pm.txt', 'r')
 task_list = gt.get_list('My Tasks')
 tasks = task_list.get_tasks(include_hidden=True)
 

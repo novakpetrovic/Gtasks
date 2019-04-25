@@ -185,7 +185,7 @@ class Gtasks(object):
                 headers=header)
         response.raise_for_status()
         return TaskList(response.json(), self)
-    
+
     def push_updates(self):
         for task_list in self._list_index.values():
             task_list.push_updates()
